@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Laptop Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #1f2d3d;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      width: 230px;
+      margin: 10px;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .price {
+      color: green;
+      font-weight: bold;
+      margin: 8px 0;
+    }
+
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 8px;
+      width: 100%;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Laptop Shop</h1>
+    <p>Best Laptops for Work & Gaming</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <img src="https://via.placeholder.com/230x160" alt="Laptop 1">
+      <h3>MacBook Air</h3>
+      <p class="price">₹1,15,000</p>
+      <button>Buy Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/230x160" alt="Laptop 2">
+      <h3>Dell XPS 13</h3>
+      <p class="price">₹1,25,000</p>
+      <button>Buy Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/230x160" alt="Laptop 3">
+      <h3>HP Pavilion</h3>
+      <p class="price">₹65,000</p>
+      <button>Buy Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/230x160" alt="Laptop 4">
+      <h3>Lenovo ThinkPad</h3>
+      <p class="price">₹85,000</p>
+      <button>Buy Now</button>
+    </div>
+
+  </div>
+
+</body>
+</html>
